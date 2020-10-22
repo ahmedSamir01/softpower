@@ -1,0 +1,365 @@
+/*start global*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -chrome-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase
+
+}
+
+body {
+    
+    font-family: Calibri Light, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.container {
+    width: 1100px;
+    margin: auto
+}
+
+ul {list-style: none;margin: 0;padding: 0}
+
+
+.navbar,
+.header,
+.services,
+.our-team,
+.testmonials,
+.portfolio,
+.footer {min-width: 1200px}
+
+button {cursor: pointer}
+
+/*end global*/
+
+
+/*start header*/
+
+.navbar {color: #fff;height: 0;z-index: 999;position: relative}
+
+.navbar .brand {float: left;margin-right: 532px}
+
+.navbar .brand h2 a {color: #fff;text-decoration: none}
+
+.navbar .links {float: left;width: 40%;padding-left: 14px}
+
+
+.navbar li {
+
+    display: inline-block;
+    margin: 19px 0;
+    padding: 5px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600
+    
+}
+
+.navbar li a {text-decoration: none;color: #fff;cursor: pointer}
+
+.navbar li:not(:last-child) {
+
+    margin-right: 26px
+    
+}
+
+.navbar li.active,
+.navbar li:hover {color: #fa9b57}
+
+.navbar li a.active,
+.navbar li a:hover {color: #fa9b57}
+/*end navber*/
+
+/*start header*/
+
+.header {
+    
+    background: url(../img/bg.jpg);
+    background-size:cover;
+    position: relative;
+    color: #fff
+    
+}
+
+.header .overlay {position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.3)}
+
+.header .bx-wrapper {
+    
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100%
+}
+.header .bx-wrapper .bx-viewport {
+
+    height: 100% !important;
+    text-align: center
+}
+
+.header .bxslider {
+    
+    height: 100%;
+    text-transform: uppercase;
+    color: #fff  
+    
+}
+
+.header .bxslider li {display: block; text-align: center}
+
+.header .bxslider li h2 {font-size: 50px;margin: 0;display: none}
+
+.header .bxslider li h2 span {color: #fa9b57}
+
+.header .bxslider li  p {font-size: 14px;word-spacing: 2px;margin-bottom: 20px;display: none}
+
+
+.header .bxslider li button {
+    
+    font-size: 16px;
+    background: none;
+    color: #fff;
+    padding: 6px 9px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-family: Calibri Light;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: none
+    
+}
+
+/*end header*/
+
+/*start about*/
+
+.about {margin-top: 180px;color: #999}
+
+.about .collect {overflow: auto}
+
+.about .collect .img {float: left;width: 40%;margin-right: 8%;height: 400px}
+
+.about .collect .img img {width: 100%; height: 100%}
+
+.about .collect .para {float: left; width: 52%}
+
+.about .collect .para h2 {margin-top: -50px;position: absolute}
+
+.about .collect .para span {font-size: 36px;color: #fa9b57;font-weight: bold}
+
+.about .collect .para p{font-size: 15px;line-height: 25px;margin-bottom: 30px}
+
+.about .collect .para h3 {font-weight: 100;display: inline-block;margin: 0 0 17px 17px}
+
+.about .collect .para i {color: #416b41}
+
+/*end about*/
+
+/*start team*/
+
+.team {overflow: auto;margin-top: 120px}
+
+.team h2 {color: #fba057;margin-top: 8px;margin-bottom: 50px;font-size: 30px}
+
+.team span:first-child {font-size: 19px;color: #a4a4a4;letter-spacing: 3px}
+
+.team .pub {width: 45%; float: left; position: relative}
+
+.team .pub .overlay {position: absolute;top: 0;bottom: 0;right: 0;left: 0;height: 100%;background-color: #ff962e7d;display: none}
+
+.team .pub h2 {position: absolute;top: 220px;color: #fff;font-size: 40px;letter-spacing: 15px;display: none}
+
+.team .pub span {position: absolute;top: 278px;text-align: center;left: 30px;font-size: 23px;color: #f4c18e;font-weight: 700;background: #27272799;padding: 4px 5px;display: none}
+
+.team .pub .pic {height: 500px;position: relative}
+
+.team .pub .pic img {height: 100%; width: 100%}
+
+.team .mem-left {margin-right: 10%}
+
+.team .mem-left h2 {margin-right: 10%;left: 90px}
+
+.team .mem-right h2 {margin-right: 10%;left: 75px}
+
+.team .mem-right span {left: 35px}
+
+
+
+.team p {margin: 50px 0;font-size: 21px;color: #8b8b8b;line-height: 25px}
+
+/*end team*/
+
+/*start services*/
+
+.sep {border: 1px solid #eee; margin-bottom: 0}
+
+.services {
+    
+    height: 850px;
+    background-color: #f8f9fa
+}
+
+.services .f-h {
+    
+    background-color: #fa9b57;
+    width: 160px;
+    height: 120px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    padding-top: 65px
+}
+
+.services .box {
+    overflow: auto;
+    width: 100%;
+    padding-top: 80px;
+    position: relative
+}
+
+.services .box .serv {
+    width: 31.5%;
+    margin-bottom: 40px;
+    border-top: 2px solid #fa9b57;
+    float: left;
+    margin-right: 30px;
+    background-color: #fff;
+    padding: 15px;
+    transition: .3s all ease-in-out
+}
+
+.services .box .serv:hover {
+    
+    transform: translate(0, -5px);
+    box-shadow: 0px 10px 30px -10px #999
+    
+}
+
+
+.services .box .serv.dd {
+    
+    margin-right: 0
+}
+
+.services .box .serv h2 {margin: 15px 0 25px 0;text-align: center;color: #787878}
+
+.services p {color: #939393;line-height: 25px;font-size: 16px}
+
+/*end services*/
+
+/*start testi*/
+
+.testi {
+    
+    background: url(../img/z.png);
+    background-size: cover;
+    height: 400px
+}
+
+.testi span {text-align: center;display: block;letter-spacing: 10px;font-size: 20px;color: azure;font-weight: 600;padding: 45px}
+
+.testi .opin {display: none;margin-top: 80px}
+
+.testi .opin q {text-align: center;display: block;color: #fff;font-size: 17px;text-transform: capitalize;font-weight: 600;line-height: 23px;letter-spacing: .1px}
+
+.testi .opin h2 {text-align: center;color: beige;font-size: 20px;margin-top: 100px;text-transform: capitalize}
+
+.testi .opin.active {display: block}
+
+/*end testi*/
+
+/*start contact*/
+
+.contact {padding: 0;background: #f8f9fa}
+
+.contact .up {padding: 20px;background: white;box-shadow: 0px 0px 15px -4px #999;position: relative;top: 138px}
+
+.contact .up span {font-weight: bold;display: block;text-align: center;letter-spacing: 5px;color: #acacac;margin: 20px 0 15px 0;font-size: 16p}
+
+.contact .up h2 {text-align: center;margin-bottom: 50px;margin-top: 10px;font-size: 30px;color: #fa9b57;text-transform: capitalize;letter-spacing: 2px}
+
+.contact .up form {overflow: hidden}
+
+.contact .up input,
+.contact .up textarea {float: left;margin-bottom: 30px;padding: 15px;border: 0;border-radius: 5px;text-transform: capitalize;background: #bebebe40;color: #666}
+
+.contact .up input:focus,
+.contact .up textarea:focus {color: #666;outline: none !important;border:1px solid #ccc; padding: 14px;background: #efefef5e}
+
+.contact .up form .name {width: 48%}
+
+.contact .up form input:first-child {margin-right: 4%}
+
+.contact .up form input:nth-child(4),
+.contact .up form input:nth-child(3),
+.contact .up form textarea {width: 100%;max-width: 100%;min-width: 100%}
+
+.contact .up form button {border-radius: 35px;display: inline-block;padding: 15px 0;width: 175px;font-size: 18px;text-transform: capitalize;margin-bottom: 15px}
+
+.footer {background: #333333; padding: 250px 0 60px 0}
+
+.footer .down {overflow: hidden; background: #333333}
+
+.footer .down .box {float: left;width: 28.667%}
+
+.footer .down div:nth-child(2) {padding-left: 38px}
+
+.footer .down div:not(:nth-child(3)) {margin-right: 7%}
+
+.footer .down h2 {color: #fff;font-size: 23px;margin-bottom: 30px;text-transform: capitalize}
+
+.footer .down h3 {color: #acacac;text-transform: capitalize;font-weight: 100}
+
+.footer .down p {line-height: 1.7;color: gray;font-size: 1rem;text-transform: capitalize}
+
+.footer .down .box.th form input {border-radius: 5px;text-transform: lowercase;border: 1px solid transparent;padding: 13px;width: 280px;background: #4d4d4d;font-style: italic;color: #ccc}
+
+.footer .down .box.th form input:focus {color: #ccc;outline: none !important;border:1px solid #777}
+
+.footer .down .box.th form input::placeholder {color: #ccc;opacity: 1}
+
+.footer .down .box.th button {display: block;padding: 12px 0;border-radius: 20px;width: 135px;letter-spacing: 1px}
+
+.footer .down span {color: #8f8f8f;text-transform: capitalize;text-align: center;display: block;margin-top: 20px;letter-spacing: 2px;font-size: 15px}
+
+.footer .down .icons {margin-right: 0 !important;text-align: center;margin-top: 100px;font-size: 20px;color: #9d9d9d;word-spacing: 34px} 
+
+.footer .down .icons i {cursor: pointer}
+
+/*end contact*/
+
+/*start top icon*/
+
+.scrollToTop {position: fixed;z-index: 9999;bottom: 15px;right: 15px;font-size: 20px;background: transparent;color: #fa9b57;padding: 10px 13px 13px 13px;border: 1px solid #cacaca;display: none;border-radius: 50px}
+
+/*end top icon*/
+
+/*start framework*/
+
+.myb {border: 0;color: #fff;background: #fa9b57;margin-top: 20px}
+
+.special-h {position: relative}
+
+.special-h:after {
+    
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #fa9b57;
+    display: block;
+    width: 260px;
+    top: 85px;
+    bottom: 0;
+    left: 50px
+
+}
+.clearfix {clear: both}
+/*start framework*/
+
+
+
+
+
+
+
