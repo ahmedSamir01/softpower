@@ -1,4 +1,4 @@
-# softpower
+# Softpower
 
 Last updates and news about soft power all around the world, designed&amp;coded by me.
 
